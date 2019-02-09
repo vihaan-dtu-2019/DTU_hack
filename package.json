@@ -1,0 +1,20 @@
+{
+  "name": "article-sum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": "babel server --out-dir build --presets=es2015 && webpack",
+  "author": "hk",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/speech": "^2.3.0",
+    "lexrank": "^1.0.5",
+    "lexrank.js": "^1.3.3",
+    "lodash": "^4.17.11",
+    "node-summary": "^1.2.0",
+    "nodejs-text-summarizer": "^2.0.3"
+  }
+}
